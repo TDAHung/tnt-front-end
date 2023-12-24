@@ -15,6 +15,7 @@ ul {
 
 img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -33,11 +34,22 @@ body {
     background-color: var(--GOLD);
 }
 
+input:focus {
+    outline: none;
+}
+
 @font-face {
     font-family: 'Pony';
     font-weight: normal;
     font-style: normal;
     src: url('../fonts/Pony/icielPony.ttf');
+}
+
+@font-face {
+    font-family: 'Jua';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Jua/Jua-Regular.ttf');
 }
 
 header {
