@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --GINER: #DC9D00;
+    --GOLD: #FFE091;
+    --WALNUT: #825748;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--GOLD);
+}
+
+@font-face {
+    font-family: 'Pony';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Pony/icielPony.ttf');
+}
+
+header {
+    height: 5rem;
+    background-color: var(--GINER);
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
